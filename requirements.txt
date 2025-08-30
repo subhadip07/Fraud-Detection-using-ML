@@ -2,7 +2,11 @@ numpy
 pandas
 seaborn
 scikit-learn
+# scikit-learn<=1.2.2
 matplotlib
 ipykernel
 streamlit
 joblib
+
+polars
+dask

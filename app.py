@@ -11,8 +11,10 @@ from sklearn.compose import ColumnTransformer
 import sklearn.metrics as metrics
 
 
-with open('Models/model.joblib', 'rb') as f:
-    model = joblib.load(f)
+# with open("Models/model.pkl", "rb") as f:
+#     model = pickle.load(f)
+
+model = joblib.load("Models/model.joblib")
 
 st.title('Fraud Detection Prediction App')
 
